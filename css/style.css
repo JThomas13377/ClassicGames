@@ -1,0 +1,43 @@
+.selector-for-some-widget{
+    box-sizing: content-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.arcademachine{
+    width: 25%;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.bg{
+    background-image: url("../img/bg.png");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zoom{
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
+
