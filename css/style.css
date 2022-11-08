@@ -16,9 +16,14 @@
     width: 25%;
 }
 
+.banner{
+    background-color: black;
+}
+
 body, html{
     height: 100%;
     margin: 0;
+    background-color: black;
 }
 
 .bg{
