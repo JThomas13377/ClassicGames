@@ -1,9 +1,16 @@
+@font-face{
+    font-family: DoomFont;
+    src: url('../DOOM/font/RythmOfDeath-YzL62.ttf');
+}
+
 .selector-for-some-widget{
     box-sizing: content-box;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .img-banner{
@@ -27,15 +34,13 @@
 }
 
 body, html{
-    height: 100%;
     margin: 0;
+    padding: 0;
     background-color: black;
 }
 
 .bg{
     background-image: url("../img/bg.png");
-
-    height: 100%;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -52,3 +57,14 @@ body, html{
     transform: scale(1.2);
 }
 
+.doom{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../DOOM/img/banner.jpg');
+    background-blend-mode: overlay;
+}
+
+.doomtext{
+    font-family: DoomFont;
+}
