@@ -8,36 +8,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="jquery-3.6.0.min.js"></script>
     <link rel="icon" type="image" href="img/icon-header.png">
 </head>
 
 <!--Cuerpo y lista de Juegos-->
 <body class="container-fluid bg-dark text-bg-dark text-center pt-4 bg">
 
+    <div class="text-center">
+        <img src="" alt="" class="mt-5">
+    </div>
+
     <!--Imagenes Lado a Lado-->
     <div class="row">
         <div class="column">
-            <a href=""><img class="img-fluid zoom" src="img/wolf3d.jpg" alt="Wolfenstein 3-D"></a>
+            <a href="#"><img class="img-fluid zoom" src="img/wolf3d.jpg" alt="Wolfenstein 3-D"></a>
+            <audio src=""></audio>
         </div>
 
         <div class="column">
-            <a href=""><img class="img-fluid zoom" src="img/ageofempire2.jpg" alt="Age of Empires 2"></a>
+            <a href="#" class="MP3"><img class="img-fluid zoom" src="img/ageofempire2.jpg" alt="Age of Empires 2"></a>
+            <audio src="./sounds/age2.mp3" class="age2Sound"></audio>
         </div>
 
         <div class="column">
-            <a href=""><img class="img-fluid zoom" src="img/commandos.jpg" alt="Commandos"></a>
+            <a href="#"><img class="img-fluid zoom" src="img/commandos.jpg" alt="Commandos"></a>
+            <audio src=""></audio>
         </div>
 
         <div class="column">
-            <a href="DOOM/doom.html"><img class="img-fluid zoom" src="img/doom.jpg" alt="DooM"></a>
+            <a href="DOOM/doom.html" class="MP3"><img class="img-fluid zoom" src="img/doom.jpg" alt="DooM"></a>
+            <audio src="./sounds/doom.mp3" class="doomSound"></audio>
         </div>
 
         <div class="column">
-            <a href=""><img class="img-fluid zoom" src="img/quake.jpg" alt="Quake"></a>
+            <a href="#"><img class="img-fluid zoom" src="img/quake.jpg" alt="Quake"></a>
+            <audio src=""></audio>
         </div>
 
         <div class="column">
-            <a href=""><img class="img-fluid zoom" src="img/stalker.jpg" alt="Stalker"></a>
+            <a href="#"><img class="img-fluid zoom" src="img/stalker.jpg" alt="Stalker"></a>
+        </div>
+
+        <div class="column">
+            <a href="#"><img class="img-fluid zoom" src="img/cnc.jpg" alt="Command and Conquer"></a>
+        </div>
+
+        <div class="column">
+            <a href="#"><img class="img-fluid zoom" src="img/diablo2.png" alt="Diablo 2"></a>
         </div>
     </div>
 
@@ -45,6 +63,8 @@
     <div class="mx-auto d-block">
         <img class="img-fluid zoom arcademachine" src="img/arcade.png" alt="Salon-Arcade">
     </div>
+
+    <script src="./js/java.js"></script>
 
 </body>
 
